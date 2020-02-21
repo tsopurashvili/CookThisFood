@@ -1,0 +1,313 @@
+/*base classes*/
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.d-flex{
+	display: flex;
+}
+.header-wrapper{
+	justify-content: space-between;
+	align-items: center;
+}
+.relative{
+	position: relative;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float-right
+}
+/*base classes*/
+
+#sliderWrapper{
+            display: flex;
+            justify-content: space-around;
+        }
+
+/*header*/
+.logo{
+	width: 30px;
+}
+.social-img{
+	width: 40px;
+}
+.yt:hover{
+	background: #cd201f;
+}
+.in:hover{
+	background: #3f729b;
+}
+.fb:hover{
+	background: #3b5998;
+}
+.tw:hover{
+	background: #55acee;
+}
+.pi:hover{
+	background: #bd081c;
+}
+.tu:hover{
+	background: #00405d;
+}
+/*header*/
+
+/*menu*/
+.navigation-li{
+	margin-right: 30px;
+}
+.navigation-a{
+	font-family: 'odibe';
+	color: #000;
+}
+input[type=text1]{
+	width: 300px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	outline: none;
+}
+.social-li{
+	padding: 0 5px;
+}
+.social-li:last-child{
+	padding-right: 0;
+}
+.login-img{
+	width: 25px;
+	margin-left: 250px;
+}
+/*menu*/
+
+/*banner*/
+.carousel{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*banner*/
+
+/*recipes*/
+.recipes{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.image-1{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 5px;
+	display: flex;
+}
+.image{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+/*recipes*/
+
+/*recipe title*/
+.title-recipes{
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+	font-family: 'odibe';
+	font-size: 30px;
+	position: relative;
+}
+/*recipe title*/
+
+/*recipes search*/
+.recipes-search{
+	background: #E74C3C;
+}
+input[type=text-recipe-search]{
+	width: 50%;
+	background: #f1f1f1;
+	margin: 80px;
+	margin-left: 300px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border: none;
+}
+input[type=text-recipe-search]:hover{
+	background: #ddd;
+}
+.recipes-heading{
+	position: absolute;
+	top: 200px;
+	left: 600px;
+	font-family: 'odibe';
+	font-size: 30px;
+}
+/*recipes search*/
+
+/*how-to*/
+.how-to{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*how-to*/
+
+/*how to title*/
+.title-howto{
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+	font-family: 'odibe';
+	font-size: 30px;
+}
+/*how to title*/
+
+/*thumbnails*/
+.thumbnails{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.thumb-li{
+	box-sizing: border-box;
+}
+.thumb-img{
+	width: 270px;
+}
+.thumb-box{
+	width: 270px;
+	height: 370px;
+}
+/*thumbnails*/
+
+/*thumb title*/
+.title-thumb{
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+	font-family: 'odibe';
+	font-size: 30px;
+}
+/*thumb title*/
+
+/*thumb text*/
+.thumb-text-1{
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+.thumb-text-2{
+	padding-top: 20px;
+}
+.thumb-text-3{
+	padding-top: 20px;
+}
+.thumb-text-4{
+	padding-top: 20px;
+}
+/*thumb text*/
+
+/*footer*/
+.footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ddd;
+}
+.footer-logo{
+	width: 50px;
+}
+.social-img-footer{
+	width: 40px;
+}
+.social-li-footer{
+	padding: 0 5px;
+}
+.social-li-footer:first-child{
+	padding-left: 0;
+}
+.footer-h2{
+	font-family: 'odibe';
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.footer-right-block{
+	margin-left: 880px;
+}
+.footer-ul{
+	padding-right: 20px;
+}
+.footer-li a{
+	font-family: 'odibe';
+	font-size: 24px;
+	color: #000;
+}
+.footer-li:first-child{
+	font-family: 'odibe';
+	font-size: 18px;
+	border-bottom: 1px solid red;
+}
+/*.footer-li{
+	width: 100%;
+}
+.footer-li-right{
+	width: 100%;
+}*/
+.footer-li-right a{
+	font-family: 'odibe';
+	font-size: 24px;
+	color: #000;
+}
+.footer-li-right:first-child{
+	font-family: 'odibe';
+	font-size: 18px;
+	border-bottom: 1px solid red;
+}
+/*footer*/
+
+/*login*/
+.login-page{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.login-div{
+	background-image: url("../images/banner.jpg");
+	min-height: 380px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.container-login{
+	position: absolute;
+  	right: 0;
+  	margin: 20px;
+  	max-width: 300px;
+  	padding: 16px;
+  	background-color: white;
+}
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+/*login*/
+
